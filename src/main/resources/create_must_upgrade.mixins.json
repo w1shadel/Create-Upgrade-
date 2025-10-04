@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.maxwell.create_must_upgrade.mixin",
+  "refmap": "create_must_upgrade.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MaxwellKineticBlockEntityMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

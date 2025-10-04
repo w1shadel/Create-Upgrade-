@@ -1,0 +1,12 @@
+{
+  "item.create_must_upgrade.efficiency_module": "Stress Regulator",
+  "item.create_must_upgrade.speed_upgrade_module": "Overdrive Module",
+  "item.create_must_upgrade.scan_wand": "Engineer's Scepter",
+  "item.create_must_upgrade.cap_wand": "Module Actuator",
+  "item.create_must_upgrade.broken_screen": "Broken Display",
+  "upgrade.create_must_upgrade.efficiency": "Stress Regulator",
+  "upgrade.create_must_upgrade.speed": "Overdrive",
+  "upgrade.create_must_upgrade.description.speed": "Increases the rotational speed and stress load of the machine.",
+  "upgrade.create_must_upgrade.description.efficiency": "Reduces mechanical stress load.",
+  "itemGroup.create_must_upgrade.items": "Create Upgrade!'s Items"
+}

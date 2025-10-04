@@ -1,0 +1,32 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "key":
+  {
+    "A":
+    {
+      "item":"create_must_upgrade:broken_screen"
+    },
+    "B":
+    {
+      "item":"create:brass_ingot"
+    },
+    "C":
+    {
+      "item":"create:electron_tube"
+    },
+    "D":
+    {
+      "item":"minecraft:diamond_pickaxe"
+    }
+  },
+  "pattern":
+  [
+    "CBB",
+    "CAB",
+    "BDB"
+  ],
+  "result":
+  {
+    "item":"create_must_upgrade:efficiency_module"
+  }
+}

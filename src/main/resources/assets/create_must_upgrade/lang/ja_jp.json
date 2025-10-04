@@ -1,0 +1,12 @@
+{
+  "item.create_must_upgrade.efficiency_module": "効率強化モジュール",
+  "item.create_must_upgrade.speed_upgrade_module": "過重負荷モジュール",
+  "item.create_must_upgrade.scan_wand": "エンジニアの杖",
+  "item.create_must_upgrade.cap_wand": "モジュール探査機",
+  "item.create_must_upgrade.broken_screen": "壊れたディスプレイ",
+  "upgrade.create_must_upgrade.efficiency": "効率強化",
+  "upgrade.create_must_upgrade.speed": "オーバードライブ",
+  "upgrade.create_must_upgrade.description.speed": "機械の回転速度と応力負荷を増加させます。",
+  "upgrade.create_must_upgrade.description.efficiency": "機械の応力負荷を軽減します。",
+  "itemGroup.create_must_upgrade.items": "Create Upgrade!のアイテム"
+}

@@ -1,0 +1,28 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "key":
+  {
+    "A":
+    {
+      "item":"minecraft:copper_ingot"
+    },
+    "B":
+    {
+      "item":"minecraft:iron_ingot"
+    },
+    "C":
+    {
+      "item":"create_must_upgrade:broken_screen"
+    }
+  },
+  "pattern":
+  [
+    "ABB",
+    "ACB",
+    "BBB"
+  ],
+  "result":
+  {
+    "item":"create_must_upgrade:cap_wand"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "key":
+  {
+    "C":
+    {
+      "item":"create:electron_tube"
+    }
+  },
+  "pattern":
+  [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "result":
+  {
+    "item":"create_must_upgrade:broken_screen"
+  }
+}

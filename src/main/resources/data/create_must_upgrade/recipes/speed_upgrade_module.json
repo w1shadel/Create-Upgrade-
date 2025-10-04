@@ -1,0 +1,28 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "key":
+  {
+    "A":
+    {
+      "item":"create_must_upgrade:broken_screen"
+    },
+    "B":
+    {
+      "item":"create:brass_ingot"
+    },
+    "C":
+    {
+      "item":"create:electron_tube"
+    }
+  },
+  "pattern":
+  [
+    "CBB",
+    "CAB",
+    "BBB"
+  ],
+  "result":
+  {
+    "item":"create_must_upgrade:speed_upgrade_module"
+  }
+}
