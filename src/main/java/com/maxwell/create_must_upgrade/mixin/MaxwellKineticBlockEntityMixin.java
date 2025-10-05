@@ -1,8 +1,8 @@
 package com.maxwell.create_must_upgrade.mixin;
 
-import com.maxwell.create_must_upgrade.Cap.UpgradeCapability;
-import com.maxwell.create_must_upgrade.Cap.UpgradeEffect;
-import com.maxwell.create_must_upgrade.Cap.UpgradeType;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeCapability;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeEffect;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeType;
 import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import org.spongepowered.asm.mixin.Mixin;

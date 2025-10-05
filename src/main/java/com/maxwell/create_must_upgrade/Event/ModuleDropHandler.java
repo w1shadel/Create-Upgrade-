@@ -1,6 +1,6 @@
 package com.maxwell.create_must_upgrade.Event;
 
-import com.maxwell.create_must_upgrade.Cap.UpgradeCapability;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeCapability;
 import com.maxwell.create_must_upgrade.Create_must_upgrade;
 import com.maxwell.create_must_upgrade.Register.ModItems;
 import net.minecraft.server.level.ServerLevel;
