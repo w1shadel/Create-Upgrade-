@@ -1,7 +1,7 @@
 package com.maxwell.create_must_upgrade.Register;
 
-import com.maxwell.create_must_upgrade.Cap.UpgradeEffect;
-import com.maxwell.create_must_upgrade.Cap.UpgradeType;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeEffect;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 

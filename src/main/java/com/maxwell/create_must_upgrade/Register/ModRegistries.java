@@ -1,6 +1,6 @@
 package com.maxwell.create_must_upgrade.Register;
 
-import com.maxwell.create_must_upgrade.Cap.UpgradeType;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeType;
 import com.maxwell.create_must_upgrade.Create_must_upgrade;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;

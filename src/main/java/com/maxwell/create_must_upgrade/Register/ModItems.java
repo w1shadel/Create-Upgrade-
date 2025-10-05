@@ -2,9 +2,10 @@ package com.maxwell.create_must_upgrade.Register;
 
 import com.maxwell.create_must_upgrade.Create_must_upgrade;
 import com.maxwell.create_must_upgrade.Item.BaseUpgradeItem;
-import com.maxwell.create_must_upgrade.Cap.UpgradeType;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeType;
 import com.maxwell.create_must_upgrade.Item.CapabilityWandItem;
 import com.maxwell.create_must_upgrade.Item.NetworkInspectorItem;
+import com.maxwell.create_must_upgrade.Item.StressAccumulatorItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -30,6 +31,7 @@ public class ModItems {
     public static final RegistryObject<Item> CAP_WAND;
     public static final RegistryObject<Item> SCAN_WAND;
     public static final RegistryObject<Item> BROKEN_SCREEN;
+    public static final RegistryObject<Item> STRESS_ACCUMRATER;
     static
     {
         TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Create_must_upgrade.MODID);
@@ -39,6 +41,7 @@ public class ModItems {
         CAP_WAND = ITEMS.register("cap_wand", () -> new CapabilityWandItem(new Item.Properties()));
         SCAN_WAND = ITEMS.register("scan_wand", () -> new NetworkInspectorItem(new Item.Properties()));
         BROKEN_SCREEN = ITEMS.register("broken_screen", () -> new Item(new Item.Properties()));
+        STRESS_ACCUMRATER = ITEMS.register("stress_accumrater", () -> new StressAccumulatorItem(new Item.Properties(),90));
         CMU_TAB = TABS.register("create_must_upgrade_items", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup.create_must_upgrade.items")).icon(() ->
                 new ItemStack(SPEED_UPGRADE_MODULE.get())).displayItems((enabledFeatures, entries) ->
         {

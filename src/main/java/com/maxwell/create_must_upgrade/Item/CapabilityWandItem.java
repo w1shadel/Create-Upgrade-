@@ -1,7 +1,6 @@
 package com.maxwell.create_must_upgrade.Item;
 
-import com.maxwell.create_must_upgrade.Cap.UpgradeCapability;
-import com.maxwell.create_must_upgrade.Register.ModRegistries;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeCapability;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;

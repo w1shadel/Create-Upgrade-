@@ -1,12 +1,10 @@
 package com.maxwell.create_must_upgrade.Item;
 
-import com.maxwell.create_must_upgrade.Cap.UpgradeCapability;
-import com.maxwell.create_must_upgrade.Cap.UpgradeType;
-import com.maxwell.create_must_upgrade.Register.ModRegistries;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeCapability;
+import com.maxwell.create_must_upgrade.Cap.Upgrade.UpgradeType;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
